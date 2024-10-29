@@ -39,3 +39,11 @@ En este caso se puede ejecutar directamente desde terminal con la siguiente inst
 ### Notas sobre el archivo .gitignore
 
 >El proposito del archivo ".gitignore" es el de llevar un control de los archivos que no queremos que se suban a nuestro repositorio cuando se encuentran en la misma carpeta de manera local (o mejor dicho, no se les dará seguimiento a estos archivos). Para esto dentro del archivo ".gitignore" debemos colocar de manera especifica los archvios que vamos a ignorar, pero como muchas veces pueden ser muchos los archivos y tienen diferentes tipos de archivos, podemos hacer uso de algunos valores que nos permiten seleccionar multiples archivos en una sola línea dentro de éste archivo o hasta rutas especificas que ignorar.
+
+> Para esta práctica se ignora el archivo "debug.log", podemos darnos cuenta que no se le esta dando seguimiento porque:
+
+- Al revisar nuestro archivo ".gitignore" podemos observar con la linea de código que esta dentro del archivo que se ignoran todos los archivos .log.
+
+- Se puede observar que en el repositorio actual no existe el archivo.
+
+- Cuando ejecucatmos en terminal la linea: "**git status**" podemos observar que jamás aparece este archivo en las opciones para ejecutar nuestro commit.
